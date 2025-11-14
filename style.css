@@ -58,7 +58,7 @@ h1{
 .categories p{
     background-color: blueviolet;
     color: white;
-    padding: 8px;
+    padding: 8px 12px;
     border-radius: 30px;
 }
 /* .landing-page{
@@ -160,4 +160,5 @@ h1{
 }
 .footer__s2-logo{
     color: rgb(179, 97, 255);
+
 }
