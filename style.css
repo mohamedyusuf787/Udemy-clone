@@ -129,6 +129,9 @@ h1{
     background-color: blueviolet;
     color: white;
 }
+.button:hover{
+    background-color:#9400d3;
+    color:black;
 
 .topics{
     margin-top: 80px;
@@ -176,3 +179,4 @@ h1{
 .footer__s2-logo{
     color: rgb(179, 97, 255);
 }
+
