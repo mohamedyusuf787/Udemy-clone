@@ -60,6 +60,11 @@ h1{
     color: white;
     padding: 8px 12px;
     border-radius: 30px;
+  transition: transform .2s; /* Animation */
+}
+.categories p:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 /* .landing-page{
     display: flex;
@@ -92,6 +97,13 @@ h1{
     background-color: black;
     color: white;
     
+  transition: transform .2s; /* Animation */
+}
+
+.recommendation__card:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(3px 3px 20px black);
+    
 }
 .recommendation__card img{
     width: 100%;
@@ -107,12 +119,15 @@ h1{
     margin-top: 8px;
  }
 .button{
-    width: max-content;
+    width: 100%;
     margin-top: 8px;
+    font-weight: bold;
     border-radius: 8px;
     border: none;
     padding: 10px 14px;
     cursor: pointer;
+    background-color: blueviolet;
+    color: white;
 }
 
 .topics{
@@ -160,5 +175,4 @@ h1{
 }
 .footer__s2-logo{
     color: rgb(179, 97, 255);
-
 }
